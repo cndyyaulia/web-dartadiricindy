@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Cindy Aulia Syahputri</title>
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            color: #2e7d32;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 650px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color: #a5d6a7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            font-size: 48px;
+            box-shadow: 0 8px 16px rgba(46, 125, 50, 0.2);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: #1b5e20;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #81c784;
+            color: #ffffff;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            color: #2e7d32;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #a5d6a7;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .bio {
+            color: #4f4f4f;
+            line-height: 1.7;
+            text-align: justify;
+            margin-bottom: 30px;
+            background-color: #f1f8e9;
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 0.95rem;
+        }
+
+        .favorites-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background-color: #f1f8e9;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-icon {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        .card h3 {
+            font-size: 0.85rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .card p {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: #1b5e20;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Foto / Avatar Profil -->
+        <div class="profile-img">
+            👩‍💻
+        </div>
+
+        <!-- Nama & Kelas -->
+        <h1>CINDY AULIA SYAHPUTRI</h1>
+        <div class="badge">XII RPL 1</div>
+
+        <!-- Deskripsi Diri -->
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="bio">
+            Halo! Saya <strong>Cindy Aulia Syahputri</strong>, seorang siswi kelas <strong>XII Rekayasa Perangkat Lunak (RPL) 1</strong>. Saya memiliki ketertarikan yang tinggi dalam dunia pemrograman, pengembangan web, dan teknologi. Sebagai siswi jurusan RPL, saya selalu antusias untuk mempelajari bahasa pemrograman baru serta mengasah logika pemrograman. Di luar waktu belajar koding, saya menikmati momen bersantai sambil menikmati makanan dan minuman favorit saya.
+        </div>
+
+        <!-- Favorit -->
+        <h2 class="section-title">Favorit</h2>
+        <div class="favorites-grid">
+            <div class="card">
+                <div class="card-icon">🥟</div>
+                <h3>Makanan Favorit</h3>
+                <p>Dimsum Mentai</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🍵</div>
+                <h3>Minuman Favorit</h3>
+                <p>Matcha</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Cindy Aulia Syahputri. Built for GitHub Pages.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
